@@ -229,6 +229,7 @@ under the License.
               <exclude>**/gradle/**</exclude>
               <exclude>**/gradlew*</exclude>
               <exclude>**/build/**</exclude>
+              <exclude>src/main/java/samza/examples/sql/*</exclude>
             </excludes>
           </configuration>
         </plugin>
