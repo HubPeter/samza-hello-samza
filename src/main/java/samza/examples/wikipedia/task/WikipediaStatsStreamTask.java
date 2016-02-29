@@ -83,10 +83,12 @@ public class WikipediaStatsStreamTask implements StreamTask, InitableTask, Windo
 
     collector.send(new OutgoingMessageEnvelope(new SystemStream("kafka", "wikipedia-stats"), counts));
 
+
     // Reset counts after windowing.
     edits = 0;
     byteDiff = 0;
     titles = new HashSet<String>();
     counts = new HashMap<String, Integer>();
   }
+
 }
