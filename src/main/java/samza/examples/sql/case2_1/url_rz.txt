@@ -1,0 +1,23 @@
+shijian	string,
+pz_id	bigint,
+ydz_ip	bigint,
+ydz_dk	bigint,
+mddz_ip	bigint,
+mddk	bigint,
+md_dz	string,
+fd_lj	string,
+dldz_ip	string,
+dldk	string,
+dllx	string,
+bz	string,
+clj_ip	string,
+yl	string,
+yl1	string,
+yl2	string,
+yl3	string,
+yl4	string,
+yl5	string
+
+
+
+1 based colid ###
